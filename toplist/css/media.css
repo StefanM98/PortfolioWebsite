@@ -1,3 +1,12 @@
-@media (max-width: 1000px) {
-    
+@media screen and (min-width: 653px) and (max-width: 1000px) {
+    .showcase_item {
+        width: 50%;
+    }
 }
+
+@media screen and (max-width: 652px) {
+    .showcase_item {
+        width: 100%;
+    }
+}
+
