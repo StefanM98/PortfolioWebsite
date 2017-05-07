@@ -20,6 +20,7 @@ body {
 .row {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 .col-1 {
   width: 8.33%;
@@ -87,13 +88,14 @@ body {
 .workheader {
   max-width: 100%;
   color: #7d97ad;
-}
-.showcase_item:last-child {
-  margin-right: 20px;
+  margin-bottom: 0;
 }
 
 .showcase_item {
-  padding-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 30px;
+  min-width: 263px;
 }
 .showcase_img {
   display: flex;
@@ -103,6 +105,7 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5px;
   font-size: 20px;
 }
 .showcase_link {
