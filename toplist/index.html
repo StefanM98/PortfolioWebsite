@@ -4,7 +4,6 @@
   <title>Portfolio</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/media.css">
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     hr {
@@ -20,7 +19,7 @@
     <div class="row">
       <div class="col-2">
         <div class="logo">
-          <img src="http://placehold.it/150x150" alt="logo">
+          <img src="images/SM_logo.svg" alt="logo">
         </div>
       </div>
       <div class="col-10" style="display: table; height: 150px">
@@ -38,7 +37,7 @@
     <h2 class="workheader">Featured Work</h2>
     <div class="row work">
       <div class="col-4 showcase_item">
-        <img src = "http://placehold.it/450x300" class="showcase_img" alt="work1">
+        <img src = "http://placehold.it/450x300" id="img1" class="showcase_img" onclick="openModal(this.id)" alt="work1">
         <div class="row">
           <h2 class="showcase_title">MOVIE TRAILER WEBSITE</h2>
         </div>
@@ -47,7 +46,7 @@
         </div>
       </div>
       <div class="col-4 showcase_item">
-        <img src = "http://placehold.it/450x300" class="showcase_img" alt="work2">
+        <img src = "http://placehold.it/450x300" id="img2" class="showcase_img" onclick="openModal(this.id)" alt="work2">
         <div class="row">
           <h2 class="showcase_title">APPIFY</h2>
         </div>
@@ -56,7 +55,7 @@
         </div>
       </div>
       <div class="col-4 showcase_item">
-        <img src = "http://placehold.it/450x300" class="showcase_img" alt="work3">
+        <img src = "http://placehold.it/450x300" id="img3" class="showcase_img" onclick="openModal(this.id)" alt="work3">
         <div class="row">
           <h2 class="showcase_title">BOKEH</h2>
         </div>
@@ -66,8 +65,29 @@
       </div>
     </div>
   </div>
-    <footer>
-      <p>Copyright Stefan Milanovic</p>
-    </footer>
+  <!-- The Modals -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h1>Movie Trailer Website</h1>
+      <p>This is the first modal...</p>
+    </div>
+  </div>
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>This is the second modal...</p>
+    </div>
+  </div>
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>This is the third modal...</p>
+    </div>
+  </div>
+  <script src="js/modal.js"></script>
+  <footer>
+    <p>Copyright Stefan Milanovic</p>
+  </footer>
   </body>
 </html>
