@@ -93,14 +93,16 @@ hr {
 /* Main Section */
 
 .screenshot {
-  max-width: 100%;
+  width: 100%;
+  height: 430px;
+  max-height: 45vh;
   display: flex;
   margin: auto;
   padding-top: 15px;
   padding-bottom: 15px;
-}
-.screenshot_content {
-  max-width: 100%;
+  background: url(http://placehold.it/1100x430) center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .workheader {
   max-width: 100%;
