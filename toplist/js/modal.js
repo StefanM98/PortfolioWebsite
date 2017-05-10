@@ -7,8 +7,8 @@ var span1 = document.getElementsByClassName("close")[0];
 var span2 = document.getElementsByClassName("close")[1];
 var span3 = document.getElementsByClassName("close")[2];
 
+/* When called opens the modal belonging to the selected showcase */
 function openModal(id) {
-    console.log(id);
     if (id == "img1") {
         myModal1.style.display = "block";
     }
@@ -20,6 +20,7 @@ function openModal(id) {
     }
 }
 
+/* Closes the open modal when user clicks on the 'x' */
 span1.onclick = function() {
     myModal1.style.display = "none";
 }
@@ -30,6 +31,7 @@ span3.onclick = function() {
     myModal3.style.display = "none";
 }
 
+/* Closes the open modal when user clicks outside of it */
 window.onclick = function(event) {
     if (event.target == myModal1) {
         myModal1.style.display = "none";

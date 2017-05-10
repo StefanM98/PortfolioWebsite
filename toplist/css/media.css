@@ -8,5 +8,8 @@
     .showcase_item {
         width: 100%;
     }
+    .inner_titles {
+        font-size: 12px;
+    }
 }
 
