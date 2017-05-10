@@ -104,10 +104,36 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* About Me Section */
+
+#about_me {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.about_title {
+  width: 100%;
+  height: 25px;
+  border-bottom: 4px solid #7d97ad;
+  text-align: center;
+}
+.about_span {
+  font-size: 30px;
+  color: #7d97ad;
+  font-weight: 600;
+  background-color: white;
+  padding: 0 10px;
+}
+
+/* Work Section */
+
 .workheader {
   max-width: 100%;
   color: #7d97ad;
   margin-bottom: 0;
+  font-size: 30px;
 }
 
 .showcase_item {
