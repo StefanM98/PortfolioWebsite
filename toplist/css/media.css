@@ -1,6 +1,18 @@
+@media screen and (min-width: 1001px) {
+    .screenshot {
+        height: 557px;
+        transition: 0.5s;
+    }
+}
+
 @media screen and (min-width: 653px) and (max-width: 1000px) {
     .showcase_item {
         width: 50%;
+    }
+    .screenshot {
+        background: url("../images/Screenshot_md_1x.jpg") center;
+        height: 500px;
+        transition: 0.5s;
     }
 }
 
@@ -11,5 +23,55 @@
     .inner_titles {
         font-size: 12px;
     }
+    .screenshot {
+        background: url("../images/Screenshot_sm_1x.jpg") center;
+        max-height: 400px;
+        transition: 0.5s;
+    }
 }
+
+@media screen and (max-width: 450px) {
+    .screenshot {
+        height: 400px;
+        transition: 0.5s;
+    }
+    body {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 400px) and (orientation: portrait) {
+    .screenshot {
+        background: url("../images/Screenshot_sm_1x.jpg") center;
+        transition: 0.5s;
+    }
+    body {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 355px) and (orientation: portrait) {
+    body {
+        width: 95%;
+    }
+    .screenshot {
+        background: url("../images/Screenshot_xsm_1x.jpg") center;
+        height: 300px;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-width: 800px) {
+    .screenshot {
+        background: url("../images/Screenshot_sm_land_1x.jpg") center;
+        height: 300px;
+        transition: 0.5s;
+    }
+    body {
+        width: 85%;
+    }
+}
+
+
 
