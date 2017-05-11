@@ -11,8 +11,8 @@
 }
 
 body {
-  width: 80%;
-  max-width: 1100px;
+  width: 70%;
+  max-width: 830px;
   margin: auto;
   margin-top: 20px;
 }
@@ -95,12 +95,8 @@ hr {
 .screenshot {
   width: 100%;
   height: 430px;
-  max-height: 45vh;
   display: flex;
-  margin: auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background: url(http://placehold.it/1100x430) center;
+  background: url("../images/Screenshot_1x.jpg") center;
   background-size: cover;
   background-repeat: no-repeat;
 }
