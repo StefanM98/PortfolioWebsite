@@ -1,3 +1,4 @@
+
 @media screen and (min-width: 1001px) {
     .screenshot {
         height: 557px;
@@ -10,9 +11,15 @@
         width: 50%;
     }
     .screenshot {
-        background: url("../images/Screenshot_md_1x.jpg") center;
+        background: url("../images/Screenshot_md_1x.jpg") top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
         height: 500px;
         transition: 0.5s;
+    }
+    body {
+        width: 95%;
     }
 }
 
