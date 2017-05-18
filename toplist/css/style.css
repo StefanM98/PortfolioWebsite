@@ -61,6 +61,8 @@ hr {
 }
 .col-9 {
   width: 75%;
+  display: table; 
+  height: 150px
 }
 .col-10 {
   width: 83.33%;
